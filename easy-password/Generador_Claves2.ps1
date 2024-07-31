@@ -1,5 +1,9 @@
 ﻿Add-Type -AssemblyName System.Windows.Forms
 
+# Autor: Agustin Alvarez
+# Version: 3.0 (22/05/2024)
+# Descripción: Generador de claves iniciales de tres palabras, 3 numeros, 1 mayuscula y caracter especial de facil lectura
+
 # Función para generar la clave
 function Generar-ClaveFacil {
     $palabras = @(
