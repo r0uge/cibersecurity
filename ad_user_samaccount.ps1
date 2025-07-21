@@ -1,2 +1,2 @@
 #Permite obtener el samAccount desde el UserPrincipalName, que es el correo en este caso
-Get-ADUser -Filter "UserPrincipalName -eq 'bsanda@tenaris.com'" -Properties SamAccountName | Select-Object -expandproperty SamAccountName
+Get-ADUser -Filter "UserPrincipalName -eq 'user_xxxx'" -Properties SamAccountName | Select-Object -expandproperty SamAccountName
